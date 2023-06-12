@@ -7,6 +7,10 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/application.yml
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -26,7 +30,3 @@
 !/tmp/storage/.keep
 
 /public/assets
-
-# Ignore master key for decrypting credentials and more.
-/config/master.key
-/config/application.yml
